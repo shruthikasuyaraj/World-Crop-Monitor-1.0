@@ -1,0 +1,18 @@
+{
+  "name": "world-crop-monitor",
+  "version": "1.0.0",
+  "description": "Global Crop Stress Map - Early warning system for food security",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node backend/server.js"
+  },
+  "keywords": ["agriculture", "food-security", "crop-stress", "satellite", "leaflet"],
+  "author": "World Crop Monitor Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "node-fetch": "^2.7.0"
+  }
+}
