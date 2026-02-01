@@ -2,7 +2,7 @@
 
 **Data Processing Pipelines and System Workflows**
 
-This document describes how data flows through the HackEarth system, from external sources to user-facing applications.
+This document describes how data flows through the World Crop Monitor 1.0 system, from external sources to user-facing applications.
 
 ## Table of Contents
 

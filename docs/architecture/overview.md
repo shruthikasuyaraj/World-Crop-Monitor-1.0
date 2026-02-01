@@ -1,8 +1,8 @@
 # Architecture Overview
 
-**HackEarth System Architecture & Design**
+**World Crop Monitor 1.0 System Architecture & Design**
 
-This document provides an executive summary of the HackEarth system architecture, key design decisions, and technology choices.
+This document provides an executive summary of the World Crop Monitor 1.0 system architecture, key design decisions, and technology choices.
 
 ## Table of Contents
 
@@ -18,7 +18,7 @@ This document provides an executive summary of the HackEarth system architecture
 
 ## Executive Summary
 
-HackEarth is an integrated climate and crop monitoring platform combining historical climate analysis with real-time crop stress assessment. The system processes large geospatial datasets to provide actionable insights for food security stakeholders.
+World Crop Monitor 1.0 is an integrated climate and crop monitoring platform combining historical climate analysis with real-time crop stress assessment. The system processes large geospatial datasets to provide actionable insights for food security stakeholders.
 
 ### Key Characteristics
 
@@ -55,13 +55,13 @@ HackEarth is an integrated climate and crop monitoring platform combining histor
 graph TB
     Users["👥 Users<br/>(NGOs, Policy, Research)"]
     
-    HackEarth["🏗️ HackEarth<br/>Core Platform"]
+    World Crop Monitor 1.0["🏗️ World Crop Monitor 1.0<br/>Core Platform"]
     
     DataSources["📊 Data Sources"]
     Distribution["📡 Distribution"]
     Analysis["📈 Analysis Tools"]
     
-    Users --> HackEarth
+    Users --> World Crop Monitor 1.0
     
     DataSources --> WorldClim["WorldClim<br/>Climate Data"]
     DataSources --> Sentinel["Sentinel-2<br/>Satellite Imagery"]
@@ -69,13 +69,13 @@ graph TB
     DataSources --> FAO["FAO<br/>Agriculture Data"]
     DataSources --> ERA5["ERA5<br/>Reanalysis"]
     
-    HackEarth --> Distribution
+    World Crop Monitor 1.0 --> Distribution
     
     Distribution --> Web["Web Interface<br/>https://openclimatemap.org"]
     Distribution --> API["REST API<br/>for third parties"]
     Distribution --> Export["Data Export<br/>GeoJSON, CSV"]
     
-    HackEarth --> Analysis
+    World Crop Monitor 1.0 --> Analysis
     
     Analysis --> QGIS["QGIS<br/>GIS Analysis"]
     Analysis --> Python["Python/R<br/>Scientific Analysis"]

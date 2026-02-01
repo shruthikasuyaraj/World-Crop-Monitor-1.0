@@ -1,8 +1,8 @@
 # User Guide
 
-**HackEarth - End-User Documentation**
+**World Crop Monitor 1.0 - End-User Documentation**
 
-Welcome to HackEarth! This guide will help you understand how to use the platform to monitor climate trends and crop stress conditions globally.
+Welcome to World Crop Monitor 1.0! This guide will help you understand how to use the platform to monitor climate trends and crop stress conditions globally.
 
 ## Table of Contents
 
@@ -20,7 +20,7 @@ Welcome to HackEarth! This guide will help you understand how to use the platfor
 
 ## Getting Started
 
-### Accessing HackEarth
+### Accessing World Crop Monitor 1.0
 
 **Option 1: Online (Recommended)**
 - Visit: https://openclimatemap.org
@@ -56,7 +56,7 @@ Welcome to HackEarth! This guide will help you understand how to use the platfor
 
 ## Overview
 
-HackEarth is an integrated platform with two main components:
+World Crop Monitor 1.0 is an integrated platform with two main components:
 
 ### 1. Climate Visualization
 Analyze historical climate data and future projections to understand climate trends and impacts on agriculture.
@@ -66,7 +66,7 @@ Monitor real-time crop stress indicators across key agricultural regions to iden
 
 ```mermaid
 graph TD
-    A["User"] --> B["HackEarth Platform"]
+    A["User"] --> B["World Crop Monitor 1.0 Platform"]
     B --> C["Climate Component"]
     B --> D["Crop Stress Component"]
     
@@ -454,7 +454,7 @@ Climate projections have inherent uncertainty because:
 
 ### Comparing Multiple Data Sources
 
-HackEarth integrates data from multiple sources:
+World Crop Monitor 1.0 integrates data from multiple sources:
 
 **Climate Data Sources:**
 - WorldClim (primary)

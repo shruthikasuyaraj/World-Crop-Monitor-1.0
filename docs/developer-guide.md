@@ -1,8 +1,8 @@
 # Developer Guide
 
-**HackEarth Development and Setup Instructions**
+**World Crop Monitor 1.0 Development and Setup Instructions**
 
-This guide provides step-by-step instructions for setting up your development environment and contributing to the HackEarth project.
+This guide provides step-by-step instructions for setting up your development environment and contributing to the World Crop Monitor 1.0 project.
 
 ## Table of Contents
 
@@ -57,7 +57,7 @@ This guide provides step-by-step instructions for setting up your development en
 ## Project Structure
 
 ```
-hackearth/
+World Crop Monitor 1.0/
 ├── backend/                             # Legacy Node.js server
 │   ├── server.js
 │   ├── package.json
@@ -136,7 +136,7 @@ hackearth/
 #### 1.1 Clone Repository
 ```bash
 git clone [TODO:REPO_URL]
-cd hackearth/climatemaps
+cd World Crop Monitor 1.0/climatemaps
 ```
 
 #### 1.2 Configure Environment
@@ -264,7 +264,7 @@ WORLDCLIM_VERSION=cmip6
 CLIMATE_SCENARIOS=SSP1-2.6,SSP2-4.5,SSP3-7.0,SSP5-8.5
 
 # Database (Optional)
-DATABASE_URL=postgresql://user:password@localhost:5432/hackearth
+DATABASE_URL=postgresql://user:password@localhost:5432/World Crop Monitor 1.0
 DATABASE_POOL_SIZE=20
 
 # Cache (Optional)
@@ -323,7 +323,7 @@ export const environment = {
 DB_USER=postgres
 DB_PASSWORD=postgres
 DB_HOST=localhost
-DB_NAME=hackearth_dev
+DB_NAME=World Crop Monitor 1.0_dev
 
 # Production (request from [TODO:TECH_OWNER_NAME])
 # Store in secure secret management system
@@ -335,7 +335,7 @@ DB_NAME=hackearth_dev
 # S3/Cloud Storage (if used)
 CLOUD_STORAGE_KEY=[TODO:SECRET_PROCESS]
 CLOUD_STORAGE_SECRET=[TODO:SECRET_PROCESS]
-CLOUD_STORAGE_BUCKET=hackearth-data
+CLOUD_STORAGE_BUCKET=World Crop Monitor 1.0-data
 ```
 
 ### Secret Storage
@@ -354,7 +354,7 @@ echo "API_KEY=your_key_here" >> .env
 docker secret create api_key api_key.txt
 
 # 2. Kubernetes Secrets
-kubectl create secret generic hackearth-secrets \
+kubectl create secret generic World Crop Monitor 1.0-secrets \
     --from-literal=api_key=value \
     --from-literal=db_password=value
 

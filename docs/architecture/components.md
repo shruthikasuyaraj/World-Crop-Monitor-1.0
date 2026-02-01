@@ -2,7 +2,7 @@
 
 **Detailed Component Descriptions and Interactions**
 
-This document provides in-depth technical documentation for each major component in the HackEarth system.
+This document provides in-depth technical documentation for each major component in the World Crop Monitor 1.0 system.
 
 ## Table of Contents
 

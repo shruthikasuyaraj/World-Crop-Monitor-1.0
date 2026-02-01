@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to HackEarth will be documented in this file.
+All notable changes to World Crop Monitor 1.0 will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
@@ -292,7 +292,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Contributors
 
-The HackEarth project is built on contributions from:
+The World Crop Monitor 1.0 project is built on contributions from:
 - [TODO: Team members]
 - [TODO: Partner organizations]
 - [TODO: Data providers]

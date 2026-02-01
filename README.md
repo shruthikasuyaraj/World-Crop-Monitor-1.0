@@ -1,10 +1,10 @@
-# HackEarth
+# World Crop Monitor 1.0
 
 **Global Food Security Early Warning System**
 
-HackEarth addresses the global food security crisis by providing early visibility into crop stress conditions and climate impacts on agriculture worldwide. This integrated platform combines climate data visualization with crop stress monitoring, consolidating fragmented climate and satellite data into actionable early warnings for agricultural stakeholders and policymakers.
+World Crop Monitor 1.0 addresses the global food security crisis by providing early visibility into crop stress conditions and climate impacts on agriculture worldwide. This integrated platform combines climate data visualization with crop stress monitoring, consolidating fragmented climate and satellite data into actionable early warnings for agricultural stakeholders and policymakers.
 
-![HackEarth](https://img.shields.io/badge/HackEarth-Food%20Security-brightgreen)
+![World Crop Monitor 1.0](https://img.shields.io/badge/World Crop Monitor 1.0-Food%20Security-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 ![Node.js](https://img.shields.io/badge/Node.js-18+-green)
 ![Python](https://img.shields.io/badge/Python-3.9+-blue)
@@ -21,7 +21,7 @@ Global agriculture faces unprecedented challenges from climate variability and e
 3. **Enable Early Action**: Provide actionable insights for disaster preparedness and food security planning
 4. **Consolidate Data**: Integrate fragmented climate and satellite data from multiple open sources
 
-HackEarth solves these challenges through an integrated platform combining climate analysis with crop stress monitoring, providing early warning capabilities to prevent food crises.
+World Crop Monitor 1.0 solves these challenges through an integrated platform combining climate analysis with crop stress monitoring, providing early warning capabilities to prevent food crises.
 
 ## Key Features
 
@@ -73,7 +73,7 @@ The application integrates data from multiple open sources:
 ## Project Structure
 
 ```
-hackearth/
+World Crop Monitor 1.0/
 ├── README.md                           # This file
 ├── package.json                         # Root package configuration
 ├── backend/                             # Legacy Node.js server
@@ -180,7 +180,7 @@ graph TB
 
 | Property | Value |
 |----------|-------|
-| **Project Name** | HackEarth |
+| **Project Name** | World Crop Monitor 1.0 |
 | **EAMS Record** | [TODO:EAMS_RECORD] |
 | **Business Unit** | [TODO:BUSINESS_UNIT] |
 | **Cost Center** | [TODO:COST_CENTER] |
@@ -228,7 +228,7 @@ graph TB
 ```bash
 # Clone the repository
 git clone [TODO:REPO_URL]
-cd hackearth
+cd World Crop Monitor 1.0
 
 # Navigate to climatemaps
 cd climatemaps
@@ -283,7 +283,7 @@ python -m http.server 8000
 1. **Clone the repository**
    ```bash
    git clone [TODO:REPO_URL]
-   cd hackearth
+   cd World Crop Monitor 1.0
    ```
 
 2. **Install dependencies**
@@ -401,4 +401,4 @@ For questions or support:
 
 **Last Updated**: February 2, 2026
 
-*Documentation generated with AI assistance following HackEarth documentation standards.*
+*Documentation generated with AI assistance following World Crop Monitor 1.0 documentation standards.*
