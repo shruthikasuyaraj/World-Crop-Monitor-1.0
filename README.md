@@ -181,7 +181,6 @@ graph TB
 | Property | Value |
 |----------|-------|
 | **Project Name** | World Crop Monitor 1.0 |
-| **EAMS Record** | [TODO:EAMS_RECORD] |
 | **Business Unit** | [TODO:BUSINESS_UNIT] |
 | **Cost Center** | [TODO:COST_CENTER] |
 | **Repository URL** | [TODO:REPO_URL] |
