@@ -4,12 +4,6 @@
 
 World Crop Monitor 1.0 addresses the global food security crisis by providing early visibility into crop stress conditions and climate impacts on agriculture worldwide. This integrated platform combines climate data visualization with crop stress monitoring, consolidating fragmented climate and satellite data into actionable early warnings for agricultural stakeholders and policymakers.
 
-![World Crop Monitor 1.0](https://img.shields.io/badge/World Crop Monitor 1.0-Food%20Security-brightgreen)
-![License](https://img.shields.io/badge/License-MIT-blue)
-![Node.js](https://img.shields.io/badge/Node.js-18+-green)
-![Python](https://img.shields.io/badge/Python-3.9+-blue)
-![Angular](https://img.shields.io/badge/Angular-latest-red)
-
 ## Project Overview
 
 ### Business Problem
@@ -180,45 +174,16 @@ graph TB
 
 | Property | Value |
 |----------|-------|
-| **Project Name** | World Crop Monitor 1.0 |
-| **Business Unit** | [TODO:BUSINESS_UNIT] |
-| **Cost Center** | [TODO:COST_CENTER] |
+| **Project Name** | World Crop Monitor |
 | **Repository URL** | [TODO:REPO_URL] |
-| **Live Environment** | https://openclimatemap.org (Climate Maps) |
+| **Live Environment** | not yet |
 
-## Ownership & Contacts
 
 ### Technical Ownership
 
-| Role | Name | Email | Slack |
-|------|------|-------|-------|
-| Technical Owner | [TODO:TECH_OWNER_NAME] | [TODO:TECH_OWNER_EMAIL] | [TODO:SLACK_CHANNEL] |
-| Technical Lead (Climate Maps) | [TODO:CLIMATE_TECH_LEAD] | [TODO:CLIMATE_TECH_EMAIL] | [TODO:SLACK_CHANNEL] |
-| Technical Lead (Crop Stress) | [TODO:CROP_TECH_LEAD] | [TODO:CROP_TECH_EMAIL] | [TODO:SLACK_CHANNEL] |
-
-### Business Ownership
-
 | Role | Name | Email |
 |------|------|-------|
-| Product Owner | [TODO:PRODUCT_OWNER_NAME] | [TODO:PRODUCT_OWNER_EMAIL] |
-| Business Contact | [TODO:BUSINESS_CONTACT_NAME] | [TODO:BUSINESS_CONTACT_EMAIL] |
-
-### Support
-
-| Channel | Value |
-|---------|-------|
-| **Slack Channel** | [TODO:SLACK_CHANNEL] |
-| **Support Email** | [TODO:SUPPORT_EMAIL] |
-| **On-Call Rotation** | [TODO:ONCALL_INFO] |
-| **Escalation Path** | [TODO:ESCALATION_PATH] |
-
-## Environments
-
-| Environment | URL | Status |
-|-------------|-----|--------|
-| **Development** | [TODO:DEV_URL] | Active |
-| **Staging** | [TODO:STAGING_URL] | Active |
-| **Production** | https://openclimatemap.org | Active |
+| Technical Owner | Shruthika Suyaraj | shruthikasuyaraj@gmail.com |
 
 ## Installation
 
@@ -356,26 +321,6 @@ For detailed information, see:
 | `/api/regions` | GET | Returns list of monitored regions |
 | `/api/export/:format` | GET | Exports data in JSON or CSV format (format: json or csv) |
 
-## Methodology
-
-### Crop Stress Index Calculation
-
-The composite Crop Stress Index (0-100) is calculated using weighted factors:
-
-| Indicator | Weight | Data Source |
-|-----------|--------|-------------|
-| Drought Index | 40% | Rainfall deficit, soil moisture |
-| Heat Anomaly | 30% | Temperature above optimal thresholds |
-| Vegetation Stress | 30% | NDVI anomalies from satellite data |
-
-### Risk Levels
-
-| Level | Index Range | Description |
-|-------|-------------|-------------|
-| Critical | 70-100 | Immediate intervention required |
-| High | 50-69 | Monitor closely, prepare contingency plans |
-| Medium | 30-49 | Regular monitoring, assess mitigation needs |
-| Low | 0-29 | Standard monitoring protocols |
 
 ## License
 
@@ -384,17 +329,13 @@ MIT License - See LICENSE.md files in respective directories
 ## Support & Contact
 
 For questions or support:
-- **Technical Issues**: [TODO:SLACK_CHANNEL]
-- **Feature Requests**: Contact [TODO:PRODUCT_OWNER_NAME]
-- **Urgent Issues**: Contact [TODO:TECH_OWNER_NAME]
-- **Email**: [TODO:SUPPORT_EMAIL]
+- **Feature Requests**: Contact shruthikasuyaraj@gmail.com
+- **Urgent Issues**: Contact shruthikasuyaraj@gmail.com
+- **Email**: shruthikasuyaraj@gmail.com
 
 ## External References
 
 - **Climate Maps Demo**: https://openclimatemap.org
-- **Architecture Diagrams**: [TODO:MIRO_LINK]
-- **Project Board**: [TODO:JIRA_LINK]
-- **Confluence Docs**: [TODO:CONFLUENCE_LINK]
 
 ---
 
